@@ -130,7 +130,7 @@ def main():
 
     dataset_name = sys.argv[1]
     output_name = sys.argv[2]
-    df = pd.read_csv(dataset_name)
+    df = pd.read_csv(f'dataset/{dataset_name}')
     scores = df["score"]
     classes = df["class"]
     table = run_quantifiers(scores, classes)
