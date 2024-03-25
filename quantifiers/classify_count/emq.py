@@ -7,7 +7,7 @@ from utils import quantifier_utils
 class ms(Quantifier):
     def predict(self, scores, **kwargs):
         pass
-        # max_it = 1000        # Max num of iterations
+        # max_it = 1        # Max num of iterations
         # eps = 1e-6           # Small constant for stopping criterium
 
         # m = scores.shape[0]
